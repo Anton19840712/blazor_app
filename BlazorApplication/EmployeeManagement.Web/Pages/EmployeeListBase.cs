@@ -28,7 +28,7 @@ namespace EmployeeManagement.Web.Pages
 				Email = "David@pragimtech.com",
 				DateOfBirth = new DateTime(1980, 10, 5),
 				Gender = Gender.Male,
-				Department = new Department{DepartmentId = 1,DepartmentName = "Dep1"},
+				DepartmentId = 1,
 				PhotoPath = "images/JohnHastings.png"
 			};
 
@@ -40,7 +40,7 @@ namespace EmployeeManagement.Web.Pages
 				Email = "Sam@pragimtech.com",
 				DateOfBirth = new DateTime(1981, 12, 22),
 				Gender = Gender.Male,
-				Department = new Department{DepartmentId = 2,DepartmentName = "Dep2"},
+				DepartmentId = 2,
 				PhotoPath = "images/SamGalloway.png"
 			};
 
