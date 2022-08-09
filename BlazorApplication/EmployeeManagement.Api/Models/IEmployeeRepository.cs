@@ -7,7 +7,7 @@ namespace EmployeeManagement.Api.Models
 	public interface IEmployeeRepository
 	{
 		Task<IEnumerable<Employee>> GetEmployeesAsync();
-		Task<Employee> GetEmployeeAsync(int employeeId);
+		Task<Employee> GetEmployeeByIdAsync(int employeeId);
 		Task<Employee> AddEmployeeAsync(Employee employee);
 		Task<Employee> UpdateEmployeeAsync(Employee employee);
 		void DeleteEmployeeAsync(int employeeId);

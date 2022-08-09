@@ -19,7 +19,7 @@ namespace EmployeeManagement.Api.Models
 			return await _appDbContext.Employees.ToListAsync();
 		}
 
-		public async Task<Employee> GetEmployeeAsync(int employeeId)
+		public async Task<Employee> GetEmployeeByIdAsync(int employeeId)
 		{
 			return await _appDbContext.Employees
 				.FirstOrDefaultAsync(e => e.EmployeeId == employeeId);
